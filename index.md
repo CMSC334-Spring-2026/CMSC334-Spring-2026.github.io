@@ -22,15 +22,16 @@ title: CMSC 334 Spring 2026
 </div>
 
 ## Course Tutors and Mentors
-* None. It's all on me! (Unfortunately, the course has not been offered since the fall of 2021, so no peer tutors.)
+* None. It's all on me! (This course is only offered every other year, so there
+are no students at UR who could act as peer tutors.)
 
 
 
 ## Class/Lab Info
-* Lecture (Jepson 120)
+* Lecture (Jepson 103a)
   * Tue 12:00PM - 1:15PM
   * Thr 12:00PM - 1:15PM
-* Lab (Jepson 120)
+* Lab (Jepson 103a)
   * Fri 12:00PM - 12:50PM
 
 
