@@ -1,1 +1,1 @@
-# CMSC332-Fall-2025.github.io
+# CMSC334-Spring-2026.github.io
