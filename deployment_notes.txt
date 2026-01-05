@@ -6,4 +6,11 @@ make sure you are deploying from the main branch.
 You of course have to make sure all of the CMSC334- stuff has been changed as appropriate
 (e.g., in the _config.yaml file). 
 
+You also have to make sure the repo visibility is public.  That doesn't allow others to
+change it, but only to clone it.   To do this, use this:
+
+To change a GitHub repository's visibility from private to public, 
+you must navigate to the repository's Settings tab and use the "Change visibility" 
+option found in the "Danger Zone" section
+
 Also, it takes a minute for the change to kick in.  So you might get a 404 error at first.
