@@ -1,0 +1,41 @@
+# makefile
+# use to compile and test the assembler ASM for the STACK computer and
+# its various components
+
+DEBUG_FLAG= -DDEBUG -g -Wall 
+
+# the std setting sets clang to use C++20 with GNU extensions
+# see https://clang.llvm.org/cxx_status.html
+CFLAGS=-std=gnu++2a -DDEBUG -g -Wall
+
+.SUFFIXES: .cpp .o
+
+.cpp.o:
+	g++ $(CFLAGS) -c $< 
+
+tester: tester.o 
+	g++ -o tester tester.o 
+
+Ref_type: Ref_type.o
+	g++ -o Ref_type Ref_type.o
+
+
+Template_Test: Template_Test.o
+	g++ -o Template_Test Template_Test.o
+
+Template_Test: list_929.o
+	g++ -o list_929 list_929.o
+
+array_overflow: array_overflow.o
+	g++ -o array_overflow array_overflow.o
+
+.o:
+	g++ -o $@ 
+
+scratch: scratch.o
+	g++ -o scratch scratch.o
+
+clean:
+	/bin/rm -f *.o core
+
+

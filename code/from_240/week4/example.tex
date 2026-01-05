@@ -1,0 +1,39 @@
+\documentclass[10pt]{article}
+\usepackage{charter}
+\usepackage{epsf}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+% \usepackage{amsthm}
+% \usepackage{amsmath}
+% \usepackage{graphicx}
+\pagestyle{fancy}
+
+
+\textheight 9in
+\textwidth 6.5in
+\topmargin -.5in
+
+% Margins are default 1in. on all sides
+% thus, if you wanted .5 on the left, and right
+% you'd do \oddsidemargin -.25in.
+% \evensidemargin -.25in. and
+% \textwidth 7in.
+\oddsidemargin 0in
+\evensidemargin 0in
+
+\parskip 7pt
+\parindent 0pt
+
+
+\begin{document}
+
+\begin{eqnarray*}
+\int_{1}^{\infty} \frac{4^{x-1}}{6^{x-1}} + \frac{3^x}{6^{x-1}} \; dx
+  & = &   \int_{1}^{\infty} {\left( \frac{2}{3} \right)}^{x-1} + 3{\left( \frac{1}{2} \right) }^{x-1} \; dx \\
+  & = &   \int_{1}^{\infty} \frac{3}{2} {\left( \frac{2}{3} \right)}^{x} + 6{\left( \frac{1}{2} \right) }^{x} \; dx \\
+  & = &   \frac{3}{2} \frac{{ \left( \frac{2}{3} \right) }^{x}}{\ln (\frac{2}{3})} + 6 \frac{{\left( \frac{1}{2} \right) }^{x}}{\ln (\frac{1}{2})} \bigg|_{1}^{\infty} \\
+  & = & - \left[ \frac{1}{\ln (\frac{2}{3})} + \frac{3}{\ln (\frac{1}{2})} \right]
+\end{eqnarray*}
+
+\end{document}
+

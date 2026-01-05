@@ -1,0 +1,115 @@
+g++ -std=gnu++2a -DDEBUG -g -Wall -c tester.cpp 
+In file included from tester.cpp:2:
+./MyContainer.h:83:14: error: invalid operands to binary expression ('std::__1::ostream' (aka 'basic_ostream<char>') and 'Student')
+        cout << *myIterator << endl;
+        ~~~~ ^  ~~~~~~~~~~~
+tester.cpp:53:9: note: in instantiation of member function 'MyContainer<Student>::print' requested here
+    mc3.print();
+        ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:218:20: note: candidate function not viable: no known conversion from 'Student' to 'const void *' for 1st argument; take the address of the argument with &
+    basic_ostream& operator<<(const void* __p);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/type_traits:4925:3: note: candidate function template not viable: no known conversion from 'std::__1::ostream' (aka 'basic_ostream<char>') to 'std::byte' for 1st argument
+  operator<< (byte  __lhs, _Integer __shift) noexcept
+  ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:194:20: note: candidate function not viable: no known conversion from 'Student' to 'std::__1::basic_ostream<char> &(*)(std::__1::basic_ostream<char> &)' for 1st argument
+    basic_ostream& operator<<(basic_ostream& (*__pf)(basic_ostream&))
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:198:20: note: candidate function not viable: no known conversion from 'Student' to 'basic_ios<std::__1::basic_ostream<char, std::__1::char_traits<char> >::char_type, std::__1::basic_ostream<char, std::__1::char_traits<char> >::traits_type> &(*)(basic_ios<std::__1::basic_ostream<char, std::__1::char_traits<char> >::char_type, std::__1::basic_ostream<char, std::__1::char_traits<char> >::traits_type> &)' (aka 'basic_ios<char, std::__1::char_traits<char> > &(*)(basic_ios<char, std::__1::char_traits<char> > &)') for 1st argument
+    basic_ostream& operator<<(basic_ios<char_type, traits_type>&
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:203:20: note: candidate function not viable: no known conversion from 'Student' to 'std::__1::ios_base &(*)(std::__1::ios_base &)' for 1st argument
+    basic_ostream& operator<<(ios_base& (*__pf)(ios_base&))
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:206:20: note: candidate function not viable: no known conversion from 'Student' to 'bool' for 1st argument
+    basic_ostream& operator<<(bool __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:207:20: note: candidate function not viable: no known conversion from 'Student' to 'short' for 1st argument
+    basic_ostream& operator<<(short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:208:20: note: candidate function not viable: no known conversion from 'Student' to 'unsigned short' for 1st argument
+    basic_ostream& operator<<(unsigned short __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:209:20: note: candidate function not viable: no known conversion from 'Student' to 'int' for 1st argument
+    basic_ostream& operator<<(int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:210:20: note: candidate function not viable: no known conversion from 'Student' to 'unsigned int' for 1st argument
+    basic_ostream& operator<<(unsigned int __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:211:20: note: candidate function not viable: no known conversion from 'Student' to 'long' for 1st argument
+    basic_ostream& operator<<(long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:212:20: note: candidate function not viable: no known conversion from 'Student' to 'unsigned long' for 1st argument
+    basic_ostream& operator<<(unsigned long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:213:20: note: candidate function not viable: no known conversion from 'Student' to 'long long' for 1st argument
+    basic_ostream& operator<<(long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:214:20: note: candidate function not viable: no known conversion from 'Student' to 'unsigned long long' for 1st argument
+    basic_ostream& operator<<(unsigned long long __n);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:215:20: note: candidate function not viable: no known conversion from 'Student' to 'float' for 1st argument
+    basic_ostream& operator<<(float __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:216:20: note: candidate function not viable: no known conversion from 'Student' to 'double' for 1st argument
+    basic_ostream& operator<<(double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:217:20: note: candidate function not viable: no known conversion from 'Student' to 'long double' for 1st argument
+    basic_ostream& operator<<(long double __f);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:219:20: note: candidate function not viable: no known conversion from 'Student' to 'basic_streambuf<std::__1::basic_ostream<char, std::__1::char_traits<char> >::char_type, std::__1::basic_ostream<char, std::__1::char_traits<char> >::traits_type> *' (aka 'basic_streambuf<char, std::__1::char_traits<char> > *') for 1st argument
+    basic_ostream& operator<<(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:755:1: note: candidate function template not viable: no known conversion from 'Student' to 'char' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:788:1: note: candidate function template not viable: no known conversion from 'Student' to 'char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:795:1: note: candidate function template not viable: no known conversion from 'Student' to 'signed char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:802:1: note: candidate function template not viable: no known conversion from 'Student' to 'unsigned char' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:816:1: note: candidate function template not viable: no known conversion from 'Student' to 'const char *' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:862:1: note: candidate function template not viable: no known conversion from 'Student' to 'const char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:869:1: note: candidate function template not viable: no known conversion from 'Student' to 'const signed char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:877:1: note: candidate function template not viable: no known conversion from 'Student' to 'const unsigned char *' for 2nd argument
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1061:1: note: candidate function template not viable: no known conversion from 'Student' to 'const std::__1::error_code' for 2nd argument
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:748:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'Student')
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:809:1: note: candidate template ignored: could not match 'const _CharT *' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1044:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1069:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-2>' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1088:1: note: candidate template ignored: could not match 'bitset<_Size>' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1034:1: note: candidate template ignored: requirement '!is_lvalue_reference<std::__1::basic_ostream<char> &>::value' was not satisfied [with _Stream = std::__1::basic_ostream<char> &, _Tp = Student]
+operator<<(_Stream&& __os, const _Tp& __x)
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1052:1: note: candidate template ignored: could not match 'basic_string_view<type-parameter-0-0, type-parameter-0-1>' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/ostream:1081:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-2, type-parameter-0-3>' against 'Student'
+operator<<(basic_ostream<_CharT, _Traits>& __os, unique_ptr<_Yp, _Dp> const& __p)
+^
+1 error generated.
+make: *** [tester.o] Error 1

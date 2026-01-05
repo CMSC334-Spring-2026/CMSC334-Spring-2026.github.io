@@ -1,0 +1,63 @@
+#include <iostream>
+using namespace std;
+
+class A {
+    protected: int a;
+    public:
+        A();
+        ~A();
+};
+A::A() : a{0} { cout << "in A()" << endl; }
+A::~A() { cout << "in ~A()" << endl; }
+
+class B {
+    protected: int b;
+    public:
+        B();
+        ~B();
+};
+B::B() : b{1} { cout << "in B()" << endl; }
+B::~B() { cout << "in ~B()" << endl; }
+
+class C {
+    protected: int c;
+    public:
+        C();
+        ~C();
+};
+C::C() : c{2} { cout << "in C()" << endl; }
+C::~C() { cout << "in ~C()" << endl; }
+
+// *****************************************
+
+// X inherits from A, B, and C;
+// the order they appear below indicates
+//      the order the constructors are called
+
+//class X : public C, public B, public A {
+class X : public A, public C, public B {
+    protected: int x;
+    public:
+        X();
+        ~X();
+};
+X::X() : x{3} {
+    cout << "in X()" << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    cout << "x = " << x << endl;
+}
+X::~X() { cout << "in ~X()" << endl; }
+
+int main() {
+    X x;
+    return 0;
+}
+
+/* Beware of the Diamond problem!  Suppose we have a superclass A,
+and two subclasses B, C.  Now suppose A has a method called foo().
+Suppose also that both B and C override foo() but in different ways.
+Finally, supposed class D inherits from both B and C.  Which foo()
+method does D inherit?
+*/
