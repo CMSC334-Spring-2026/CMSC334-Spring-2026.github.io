@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMSC 332 Fall 2025
+title: CMSC 334 Spring 2026
 ---
 ## Teaching Staff
 <div class="wrapper" markdown="0">

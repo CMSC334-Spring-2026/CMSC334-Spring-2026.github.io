@@ -1,0 +1,9 @@
+CMSC334-
+
+When you are setting up your website, for deployment you need to go to the Pages tab under setting and 
+make sure you are deploying from the main branch.  
+
+You of course have to make sure all of the CMSC334- stuff has been changed as appropriate
+(e.g., in the _config.yaml file). 
+
+Also, it takes a minute for the change to kick in.  So you might get a 404 error at first.
