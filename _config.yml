@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CMSC 332 Computer Networks - Fall 2025
+title: CMSC 334 Computer Security - Spring 2026
 email: dszajda@richmond.edu
 author: Doug Szajda
 description: > # this means to ignore newlines until "baseurl:"
-  CMSC 332 Networks - Fall 2025
+  CMSC 334 Computer Security - Spring 2026
 
 baseurl: "/" # the subpath of your site, e.g. /blog 
-url: "https://CMSC332-Fall-2025.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://CMSC334-Spring-2026.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: CMSC332-Fall-2025
+github_username: CMSC334-Spring-2026
 
 # destination: ./docs
 
