@@ -25,10 +25,10 @@ aside:
 ### Meeting Times
 
 ## Class/Lab Info
-* Lecture (Jepson 120)
+* Lecture (Jepson 103a)
   * Tue 12:00PM - 1:15PM
   * Thr 12:00PM - 1:15PM
-* Lab (Jespson 120)
+* Lab (Jespson 103a)
   * Fri 12:00PM - 12:50PM
 
 ### Course Staff
@@ -37,45 +37,13 @@ aside:
 
 ## Course Details 
 
-### Welcome to Computer Networks!
+### Welcome to Computer Security!
 
 Your dedication and hard work have led you to this moment; you belong here. Congratulations on your achievements, and welcome to the course. I am thrilled to have you here and am looking forward to a semester filled with growth, learning, and success. Together, we will explore, create, and innovate. Let's make this an outstanding semester for everyone!
 
 ### Course Description
 
-This is a one unit course on computer networks. 
-These networks, and in particular the Internet, 
-are fundamental to our everyday lives. Whether for enabling global scale
-commerce or connecting long lost friends, these systems have created
-an unparalleled age of information. Accordingly, knowledge of such
-systems is critical for all scientists and engineers. This course
-provides an overview of networking technologies. Students
-satisfactorily completing this course will gain the skills necessary
-to analyze and design networking systems and protocols. The course
-will begin with the application layer, looking at design patterns
-present in common application layer protocols. We then move down the
-network stack, considering topics such as reliable transmission and
-congestion control at the transport layer, routing at the network
-layer, and multiple access protocols at the link layer. After this
-discussion, the latter portion of the course will include
-wireless/mobile networks and devices, cellular networks, queuing fundamentals, security,
-network management, and time permitting, other current topics in networks
-
-
-### Learning Outcomes
-By the end of this course, you will:
-
-- Have an understanding of the problems that arise when a large number of computers is to be
-interconnected for comminication purposes
-- Have an understanding of what network protocols are, as well as the complexities of such
-algorithms that arise because of the unique domain that computer networks presents
-- Be familiar with the protocols that govern the Internet
-- Have an understanding of *why* the protocols are designed as they are (including the fundamental design principles and how they have continued to evolve)
-- Gain an understanding of the factors that influence network performance, as well as the measures used to measure that performance
-- Gain an understanding of how the theory of networks are limited by the practical realities of deployed systems 
-- Gain experience writing low level network code using the sockets API
- 
-
+This is a one unit course on computer security. We will focus on the principles of security, covering the basics of cryptography, program security, operating system security, and network security.  We will be reading and discussing some current research in the field well as some "classic" primary sources. The course has a programming component, though it is somewhat different than most UR courses in that you are often asked to modify existing code, or "hack" existing code.
 
 ### Course Topics 
 
@@ -91,18 +59,25 @@ Topics covered include (but are not limited to):
 
 ## Prerequisite
 
-The pre-requisite for this course is CMSC 301, completed with a grade of C- or better, or permission of the instructor.
+The pre-requisite for this course is CMSC 301, completed with a grade of C- or better, or permission of the instructor.  Though a knowledge of computer networks is helpful, it is
+not required. Students are expected to be able to implement
+significant projects in C++ and Java.  Readings and lectures may refer
+to C, C++, Java, and at times, assembly, so you need to be able to
+understand these.  Regarding assembly code, I want to be clear:
+As you know from CS 301, writing assembly code can be tricky.  Understanding
+it is usually less difficult.  We will likely run across examples of assembly
+code written for architectures and platforms with which you are not familiar. 
+You need to gain some comfort with being able to understand this code, given
+explanations of the assembly syntax being used.  I expect that I
+will need to clarify some aspects of the assembly code we encounter.  This
+does not mean you need to become expert in these assembly dialects. 
 
- 
 ## Textbook and Resources
 
 ### Textbook
 
-- [Computer Networking: A Top Down Approach] (8th Edition), by Kurose and Ross	
-
-- [TCP/IP Sockets in C] (Second Edition), by Donahoo and Calvert.  Note that the first edition had
-a different title, so if you have a text with this title, it's the second edition, even if it does not
-say so.
+There is no textbook for this course.  I will explain in lecture why that is.  There is,
+however, a good bit of reading of primary sources (security papers).  
 
 ### Resources
 
@@ -116,43 +91,29 @@ this is right now, but you will soon.
 
 ## Coursework and Grading
 
-I am still considering this.  Why?  Because traditional grading schemes
-have been shown to be counterproductive.  The goal in any course should
-be to learn, not to game the system so that you earn the highest grade.
-Traditional grading incentivizes the wrong things.  So, with regards to
-course work, below is what I know.  We'll discuss this again soon.
+Traditional grading schemes have been shown to be counterproductive for 
+a number of reasons.  One of these is that such systems often incentivize the 
+wrong thing -- getting the highest grade -- as opposed to incentivizing 
+learning the material.  While I will not be using a specifications-based grading 
+system (I'm still working out what that should look like), I want to make
+learning goals clear, and provide students with an opportunity to 
+earn back some of the points that are missed on midterm exams. 
+
 
 ### Course Work
 - There will be two midterm exams, and one final.  With the exception of the 
 final, you will have the opportunity to earn back a portion of the points you 
-lose on an exam.  Exam questions will be graded as follows: If you show a complete
-understanding of the issue, you will receive a satisfactory mark.  If there is 
-some understanding, but minor errors, you will earn a "needs minor revision", which
-you will have the opportunity to improve.  If your solution shows a serious misunderstanding,
-you will earn a "needs major revision".  Again, you will have the opportunity to 
-improve that.  There will be no partial credit.  You will receive credit only
-for those problems for which you earn a satisfactory mark.  Note that this also 
-removes the need to argue for more "points" -- you either know the concept or you
-don't. 
+lose on an exam.  The midterm exams will be primarily take home exams.  They will
+be open-book, open note.  They will definitely *not* be open Internet.  In addition
+the take-home portion of the exam, there will be a 30 minute in-person oral portion of the exam.  During this latter portion of the exam, I will be asking you to explain some of the answers you have submitted in the take-home portion of the exam.  
 
-Because the midterms are take home exams, I reserve the right to grade some problems via an individual session in which I ask you to work through problems. 
+- There will be two midterm projects, and one final project.  Note that I don't call
+these "programming" projects.  The first project will require that you modify code in order to implement two fundamental types of attacks on vulnerable code.  The second project will likely be a traditional programming project (though I am currently considering exactly what I want this to be).  
 
-- There will be four programming projects.  These will be graded the same way, but because
-these are not "timed" like exams are, once the deadline has passed, you will not longer have
-the opportunity to improve your grade.  Instead, you will have the opportunity to show me
-in office hours what your program is doing (or not doing) so that we can discuss where the
-issues might be.  
+- The final project will be conducted in groups of two students.  You will be presenting a recent security paper, as if you were presenting at a conference.  I will provide more details in lecture.  For all of the non-exam assignments, there will not be any opportunity to earn back points, because unlike an exam, you can ask me questions before your submit.
 
-- There may be a few labs, though I am not yet certain I will do that.  
+### Grade Determination
 
-- There will be a few homework assignments that will not be graded.  But you will need
-to be able to solve these problems if you wish to do well on the exams.
-
-- For each assignment (and in fact for each exam), I will be discussing the learning
-goals that I am attempting to assess.
-
-This is the first time I have used this grading system, so there will be some bumps in the 
-road.  Please bear with me on that.
 
 The final grade for the course must, of course, be a grade.  It will be determined
 according to which learning outcomes you have met.  I have yet to completely work them
