@@ -114,6 +114,52 @@ these "programming" projects.  The first project will require that you modify co
 
 ### Grade Determination
 
+| Grade Component | Proportion |
+| :---:| :--- : |
+| Participation (paper discussions) | 10 % |
+| First midterm | 15 %|
+
+{% comment %}
+
+<LI> <B>Grades:</B><BR>
+<table border>
+<tr>
+   <td> <B>Grade Component</B> </td>
+   <td> <B>Date </B></td>
+   <td align=CENTER> <B>Percent of Grade</B> </td>
+</tr>
+<tr>
+                    <td> Participation (paper discussions) </td>
+                    <td>N/A</td>
+                    <td align=CENTER> 5% </td>
+</tr>
+<tr>
+                    <td> Exam 1 </td>
+                    <td>distributed Friday, February 19; due by 5:00 pm, Friday, February 26</td>
+                    <td align=CENTER> 20% </td>
+</tr>
+<tr>
+   <td> Exam 2 </td>
+                    <td>distributed Friday, March 26; due 5:00 pm, Friday April 2</td>
+                    <td align=CENTER> 20% </td>
+</tr>
+
+<tr>
+   <td> Programming Assignments Avg. </td>
+   <td> N/A</td>
+   <td align=CENTER> 15% </td>
+</tr>
+<tr>
+   <td> Final Project</td>
+   <td> N/A</td>
+   <td align=CENTER> 15% </td>
+</tr>
+<tr>
+   <td> Final Examination</td>
+   <td> distributed Friday, April 23; due 5:00 pm Thursday, April 28</td>
+   <td align=CENTER> 25%
+
+{% endcomment %}
 
 The final grade for the course must, of course, be a grade.  It will be determined
 according to which learning outcomes you have met.  I have yet to completely work them
