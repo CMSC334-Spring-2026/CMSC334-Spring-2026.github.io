@@ -118,7 +118,11 @@ these "programming" projects.  The first project will require that you modify co
 | :---:| :--- : |
 | Participation (paper discussions) | 10 % |
 | First midterm | 15 %|
-
+| Second midterm | 15 %|
+| Programming Assignment 1 | 10 % |
+| Programming Assignment 2 | 10 % |
+| Final Project | 10 % |
+| Final Exam | 20 % |
 {% comment %}
 
 <LI> <B>Grades:</B><BR>
