@@ -123,54 +123,15 @@ these "programming" projects.  The first project will require that you modify co
 | Programming Assignment 2 | 10 % |
 | Final Project | 10 % |
 | Final Exam | 20 % |
-{% comment %}
 
-<LI> <B>Grades:</B><BR>
-<table border>
-<tr>
-   <td> <B>Grade Component</B> </td>
-   <td> <B>Date </B></td>
-   <td align=CENTER> <B>Percent of Grade</B> </td>
-</tr>
-<tr>
-                    <td> Participation (paper discussions) </td>
-                    <td>N/A</td>
-                    <td align=CENTER> 5% </td>
-</tr>
-<tr>
-                    <td> Exam 1 </td>
-                    <td>distributed Friday, February 19; due by 5:00 pm, Friday, February 26</td>
-                    <td align=CENTER> 20% </td>
-</tr>
-<tr>
-   <td> Exam 2 </td>
-                    <td>distributed Friday, March 26; due 5:00 pm, Friday April 2</td>
-                    <td align=CENTER> 20% </td>
-</tr>
+One note on the grade distribution mentioned above.  Failure to turn in any of the assignments will result in a failing grade for the course.  Moreover, any assignment or
+exam submitted that indicates that a lack of a sincere effort will be treated as if it was not submitted.  
 
-<tr>
-   <td> Programming Assignments Avg. </td>
-   <td> N/A</td>
-   <td align=CENTER> 15% </td>
-</tr>
-<tr>
-   <td> Final Project</td>
-   <td> N/A</td>
-   <td align=CENTER> 15% </td>
-</tr>
-<tr>
-   <td> Final Examination</td>
-   <td> distributed Friday, April 23; due 5:00 pm Thursday, April 28</td>
-   <td align=CENTER> 25%
+As mentioned in the first lecture, the exams will be take-home.  They will be open note, but Internet will be restricted.  In particular, you will be allowed to use the Internet to obtain course slides and material, but not to perform searches or use any generative AI.  After each midterm, and the final, there will be a 30 minute individual oral exam. There will also be, for each of you, opportunities to regain some of the points lost on the midterm (but not the final).  
 
-{% endcomment %}
+There will also be two programming related assignments, along with a final assignment that will involve you delving deeply into a recent security research paper.  Details on these assigments will be provided when they are assigned.
 
-The final grade for the course must, of course, be a grade.  It will be determined
-according to which learning outcomes you have met.  I have yet to completely work them
-out, but I will have them worked out soon (and may still be tweaking things during
-the semester). 
-
-My goal is that the final exam grades reflect the following ideal as much as possible. (Note that this means that curving grades is not necessary, nor are you competing against your classmates.)
+Regarding the final course grade, my goal is that your final course grade reflects the following ideal as much as possible. (Note that this means that curving grades is not necessary, nor are you competing against your classmates.)
 - An ``A'' means that your knowledge of this material is exceptional. When you have to build on the material that you learned in this class in your future classes, then you will be able to do so easily.
 - A ``B'' means that you have a good understanding of most of the material, but may have some gaps in your understanding, or are not as comfortable with some aspects of it as you might be. As such you may want to review this material before taking more advanced classes. You will be able to apply the material in this class, but you may have difficulty doing so with some of it.
 - A ``C'' means that your knowledge of this material is average/mediocre. You will likely struggle to apply this material in your future classes, as you have struggled learning the material in this class.
@@ -178,61 +139,31 @@ My goal is that the final exam grades reflect the following ideal as much as pos
 - An ``F'' means that in addition to the conditions for a ``D'' grade, you also didn't try and/or failed to hand in work.
 - A ``V'' means that you missed too many classes to pass the class, regardless of your performance on the work.
 
-### Programming Expectations
 
-This course requires, as mentioned above, the completion of four programming projects. Projects must be written in C or C++.  Note that this is a systems course - successfully completing coding assignments is a necessary condition for earning a desirable grade (because being able to code such projects is one of the course learning goagls). Moreover, the projects are an essential part of the learning process. For this reason, if a student is missing even a single project at the end of the course, he or she will receive a grade of `F' for the course!
-
-Unlike some of the lower level CS courses, in this course (and any other senior level course) a program must both compile without errors (as defined below) and suggest an earnest effort to meet project
-specifications in order to receive any credit! There are a number of other factors that may influence the grade that a program receives. Here are some of them:
-
-- Is the program "user-friendly"? That is, does the user have to guess at how to use the program, or does the program somehow provide this information to the user (e.g., via a README file)?
-
-- Is the code readable? (One letter variable names, other than for loop indices, are strictly prohibited!)
-
-- Is the code well documented? Every program assignment grade will have a significant documentation component. No one should have to dig through poorly documented code (try it some time)!
-
-- Is the code "well-structured"?
-
-- How well has your code been debugged and tested? 
-
-You should consider me a client who is purchasing your code. As the developer, it is your responsibility to ensure that I receive the latest working version of your source code and that it compiles correctly on the CS Department Linux cluster. If you happen to submit an old version of your code by accident, or you submit binaries instead of source code, then I'm not going to be a happy customer.
-
-In line with the previous item, the version of the code you submit to me should have all debugging output removed. This does not mean that you have to remove the debugging code from the source. It does mean that when the code runs, I should not be getting debugging output by default.
-
-### The Programming Environment
-
-We will be coding in UNIX based environments and using the command line and whatever editor you prefer. All programming assignments must satisfy and/or include the following:
-
-- They must be implemented in C or C++.
-- They must compile without warnings using the installed GNU C or C++ compiler, with the -Wall option, on the department Linux cluster. I mention this because C and C++ are, well, not always portable (but you knew that), and so it is possible (and in fact likely for some of these projects) that network code that compiles and runs correctly on one platform will perform differently on another.
-- Every project must include a thorough (though concise) report describing the final testing you performed in order to convince yourself that the program meets all project specifications.
 
 ### On Coding Help and Debugging
 
-Programming Help: I am happy to discuss programming and debugging techniques, as well as the semantics of particular functions calls. I am also happy to direct you to appropriate packages. And I will at times provide you with "shell code". With regards to programming, I am in general happy to help you in whatever way is necessary. I will not, however, debug your code for you! If you describe your programming issue with me, I will be happy to suggest potentially useful debugging strategies. But debugging is an important part (and in fact the majority part for these projects) of the programming process. As such, you need to be comfortable with doing it on your own!  That does not mean I intend for you to be stuck on a particular error for hours.  
+Programming Help:  The programming requirements for this course, as mentioned earlier, are primarily modifying existing code.  Still, you may have questions on the code, or on modifications you have made.  I am happy to discuss programming and debugging techniques, as well as the semantics of particular functions calls. I am also happy to direct you to appropriate packages. And I will at times provide you with "shell code". With regards to programming, I am in general happy to help you in whatever way is necessary. I will not, however, debug your code for you! If you describe your programming issue with me, I will be happy to suggest potentially useful debugging strategies. But debugging is an important part (and in fact the majority part) of many programming-related projects. As such, you need to be comfortable with doing it on your own!  That does not mean I intend for you to be stuck on a particular error for hours.  
 
-A word of caution: I mentioned above that debugging is an essential part of the programming process. For the project in this course, you might end up spending four or five times more effort in debugging your code than in writing it! Several years ago I spent one afternoon coding one of these assignments, and four days debugging it (it worked fine on one of my laptops, and crashed with a segmentation fault on the department servers (which were Solaris servers, at the time)). This is the nature of the network programming beast. You need to take this into account when planning the time you intend to spend on a programming project.
-
-You may discuss coding assignments with your classmates, faculty, other students, etc, subject to the
+You may discuss projects with your classmates, faculty, other students, etc, subject to the
 empty hands policy presented below. 
 
-When you receive coding help, you should mention that help (and who helped) in your project submission.
-Regardless of how much help you received and from who, once you submit a project, it is expected that you will be able to provide me with answers to any questions regarding the code.
+When you receive coding help, you should mention that help (and who helped) in your project submission. Regardless of how much help you received and from who, once you submit a project, it is expected that you will be able to provide me with answers to any questions I may have about what you have submitted. d
 
 Finally, any help you receive from someone other than me is subject to the 
 ``Empty Hands'' policy --- you may freely discuss ideas and approaches with your anyone 
-subject to the restriction that you must leave the discussion without any written or otherwise recorded material. Failure to comply with this policy or the guideline discussed here
-will be treated as an Honor Code violation. Note that this policy does not apply to assignment/project group members (if any), with which you are free to share materials.
+subject to the restriction that you must leave the discussion without any written or otherwise recorded material. Failure to comply with this policy or the guideline discussed here will be treated as an Honor Code violation. Note that this policy does not apply to assignment/project group members (if any), with which you are free to share materials.
 
 ### Late Work Policy
 
 Non-exam assignments may be submitted late with a **10%** deduction **per day** late, up to a maximum of four days late. 
 
-In cases of personal illnesses, emergencies, or documented accommodations, assignments may be submitted late for full credit if you notify me of your situation.
+In cases of personal illnesses, emergencies, or documented accommodations, assignments may be submitted late for full credit if you notify me of your situation prior to the time
+the project is due!
 
 
 ### Attendance Policy
-Regular attendance for the entire class time is expected. You should not miss more than 4 total sessions (including lecture and lab). 
+Regular attendance for the entire class time is expected. You should not miss more than 4 total sessions (including lecture and lab).  If you miss enough classes that I notice, then you are missing too much (I do record attendance). 
    
 
 ## Class Communication
@@ -253,16 +184,17 @@ If you are ill and it will cause you to miss class, lab, or an assignment, you s
 
 ### Generative AI
 
-You will almost certainly be using generative AI in some way for the rest of your career. You may use generative AI tools for programming projects in the following manner.
+You will almost certainly be using generative AI in some way for the rest of your career. You may use generative AI tools for the projects in the following manner.
 
 You must: 
+
 - Understand any code that you use. I reserve the right to review your submitted code with you, and ask you to explain how it works. 
 
 You may:
 - Ask a GenAI tool a generic question for informational purposes. For example, "Please explain the C++ syntax for reading input from a file, and give an example."  If you use this code, please cite the source in a comment.
 
 You may not:
-- Ask a GenAI tool to solve the assignment.  For example, you should not paste the entire problem description and ask the GenAI to solve it for you.
+- Ask a GenAI tool to solve any part of the assignment.  For example, you should not paste the entire problem description and ask the GenAI to solve it for you.
 - No GenAI tools can be used for the exams.
 
 This policy is subject to change as we all learn more about how GenAI works and doesn’t work as part of learning college level course content.
