@@ -47,15 +47,7 @@ This is a one unit course on computer security. We will focus on the principles 
 
 ### Course Topics 
 
-Topics covered include (but are not limited to):
-
-- Introduction to computer networks -- what are the problems, what are the building blocks, how are they arranged
-- The application layer, and consideration of specific application programs 
-- The transport layer
-- The networks layer (data plane and control plane)
-- The Data link layer (and various data link networks)
-- Mobile networking
-- Whatever interesting network topics we may have time for
+We will focus on the principles of security, covering the basics of cryptography, program security, operating system security, and network security. We will be reading and discussing some current research in the field well as some "classic" primary sources. The course has a programming component, though it is somewhat different than most UR courses in that you are often asked to modify existing code, or "hack" existing code.
 
 ## Prerequisite
 
@@ -72,22 +64,10 @@ explanations of the assembly syntax being used.  I expect that I
 will need to clarify some aspects of the assembly code we encounter.  This
 does not mean you need to become expert in these assembly dialects. 
 
-## Textbook and Resources
+## Textbook
 
-### Textbook
-
-There is no textbook for this course.  I will explain in lecture why that is.  There is,
+There is no textbook for this course.  There is,
 however, a good bit of reading of primary sources (security papers).  
-
-### Resources
-
-- [The RFC-Editor portal](https://www.rfc-editor.org/) You likely don't know what 
-this is right now, but you will soon. 
-
-- [All the example code from the TCP/IP Sockets in C text](https://cs.baylor.edu/~donahoo/practical/CSockets2/textcode.html)
-
-- [The student resources for your textbook](https://media.pearsoncmg.com/ph/esm/ecs_kurose_compnetwork_8/cw/)
-
 
 ## Coursework and Grading
 
