@@ -11,7 +11,7 @@ title: Schedule
 
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
-| 1    | Jan 13: | Jan 15:  | Jan 16:|
+| 1    | Jan 13: <br />[Introduction](lectures/Introduction.pdf)<br /> <br /> Hanson: [Efficient reading of papers in science and technology](papers/hanson_efficient_reading_of_papers_in_science_and_technology.pdf)<br /> <br /> Thompson: [Reflections on Trusting Trust](papers/thompson_reflections_on_trusting_trust.pdf)<br /> | Jan 15:  | Jan 16:|
 | 2    | Jan 20: | Jan 22:  | Jan 23:|
 | 3    | Jan 27: | Jan 29:  | Jan 30:|
 | 4    | Feb 3: | Feb 5:  | Feb 6:|
@@ -28,7 +28,7 @@ title: Schedule
 | 15   | Apr 21: | Apr 23:  | Apr 24: <br /> Final exam distributed <br />|
 | 16   | Apr 28: <br /> Final exam due (5:00 pm) <br /> | Apr 30:  | May 1:|
 {% comment %}             
-| 1    | Aug 26: <br />[Introduction](lectures/lecture01-intro.pdf)<br /> | Aug 28:  | Aug 29: <br /> |
+| 1    | Aug 26: <br />[Introduction](lectures/lecture01-intro.pdf)<br /> <br /> Hanson: [Efficient reading of papers in science and technology](papers/hanson_efficient_reading_of_papers_in_science_and_technology.pdf)| Aug 28:  | Aug 29: <br /> |
 | 2    | Sept 2: <br /> Project 1: [Modified TCP Echo Client](projects/project1.md) (Due Mon, September 15, at 5:00 pm)| Sept 4: | Sept 5: |
 | 3   | Sept 9: Reading:<br> Text: Chapter 1 <br> TCP/IP guide: Chapter 1, start of Chapter 2 | Sept 11: <br />[Introduction (cont.)](lectures/lecture02-intro.pdf)<br /> | Sept 12: |
 | 4   | Sept 16: Reading: <br> Text: Start Chapter 2 <br> TCP/IP guide: finish chapter 2, start Chapter 3 <br /> Project 2: [Modified TCP Echo Server](projects/project2.md) (Due Mon, September 29, at 5:00 pm) | Sept 18: | Sept 19: |
