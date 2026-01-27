@@ -12,7 +12,7 @@ title: Schedule
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
 | 1    | Jan 13: <br />[Introduction](lectures/Introduction.pdf)<br /> <br /> Hanson: [Efficient reading of papers in science and technology](papers/hanson_efficient_reading_of_papers_in_science_and_technology.pdf)<br /> <br /> Thompson: [Reflections on Trusting Trust](papers/thompson_reflections_on_trusting_trust.pdf)<br /> | Jan 15:  <br />[Handout: Security Introduction](handouts/security_intro.pdf)<br /> <br />[Implementation Flaws](lectures/ImplementationFlaws.pdf)<br /> | Jan 16:|
-| 2    | Jan 20: <br /> scut / team teso: [Exploiting format string vulnerabilities](papers/scut_exploiting_format_string_vulnerabilities.pdf)<br /> | Jan 22: <br /> Project 1: [Exploit project](projects/project1.md) (Due Wed, February 11, at 5:00 pm) | Jan 23:|
+| 2    | Jan 20: <br /> scut / team teso: [Exploiting format string vulnerabilities](papers/scut_exploiting_format_string_vulnerabilities.pdf)<br /><br />[Smashing The Stack](lectures/SmashingTheStack.pdf)<br /> | Jan 22: <br /> Project 1: [Exploit project](projects/project1.md) (Due Wed, February 11, at 5:00 pm) <br />[Security Principles](lectures/SecurityPrinciples.pdf)<br />| Jan 23:|
 | 3    | Jan 27: | Jan 29:  | Jan 30:|
 | 4    | Feb 3: | Feb 5:  | Feb 6:|
 | 5    | Feb 10: | Feb 12:  | Feb 13:<br /> First midterm exam distributed <br />|
