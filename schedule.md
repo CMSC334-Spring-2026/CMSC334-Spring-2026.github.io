@@ -16,8 +16,8 @@ title: Schedule
 | 3    | Jan 27: | Jan 29:  | Jan 30:|
 | 4    | Feb 3: | Feb 5: <br />[Cryptography Foundations](lectures/CryptographyFoundations.pdf)<br /> | Feb 6:|
 | 5    | Feb 10: <br />[DES, AES, and Modes of Operation](lectures/DESSpring_2026.pdf)<br />  | Feb 12:  | Feb 13:<br /> First midterm exam distributed <br />|
-| 6    | Feb 17: | Feb 19:  | Feb 20: <br /> First midterm exam due (5:00 pm) <br /> |
-| 7    | Feb 24: | Feb 26:  | Feb 27:|
+| 6    | Feb 17: <br />[Random Number Generation](lectures/RandomNumberGeneration.pdf)<br /> | Feb 19:  | Feb 20: <br /> First midterm exam due (5:00 pm) <br /> |
+| 7    | Feb 24: <br />[Public Key Cryptography](lectures/PublicKeyCryptography.pdf)<br /> | Feb 26:  | Feb 27:|
 | 8    | Mar 3: | Mar 5:  | Mar 6:|
 | 9    | Mar 10: **Spring Break** | Mar 12: **Spring Break**  | Mar 13: **Spring Break** |
 | 10   | Mar 17: | Mar 19:  | Mar 20:|
