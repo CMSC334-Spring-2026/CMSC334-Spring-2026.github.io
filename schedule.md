@@ -18,9 +18,9 @@ title: Schedule
 | 5    | Feb 10: <br />[DES, AES, and Modes of Operation](lectures/DESSpring_2026.pdf)<br />  | Feb 12:  | Feb 13:<br /> First midterm exam distributed <br />|
 | 6    | Feb 17: <br />[Random Number Generation](lectures/RandomNumberGeneration.pdf)<br /> | Feb 19:  | Feb 20: <br /> First midterm exam due (5:00 pm) <br /> |
 | 7    | Feb 24: <br />[Public Key Cryptography](lectures/PublicKeyCryptography.pdf)<br /> | Feb 26:  | Feb 27:|
-| 8    | Mar 3: | Mar 5:  | Mar 6: **No Lab Today**|
+| 8    | Mar 3: <br />[Electronic Voting Security](lectures/david_wagner_e-voting.pdf)<br />| Mar 5:  | Mar 6: **No Lab Today**|
 | 9    | Mar 10: **Spring Break** | Mar 12: **Spring Break**  | Mar 13: **Spring Break** |
-| 10   | Mar 17: | Mar 19:  | Mar 20:|
+| 10   | Mar 17: <br />[Networking Overview](lectures/NetworkingOverview.pdf)<br />| Mar 19:  <br />[Network Attacks](lectures/NetworkAttacks.pdf)<br />| Mar 20:|
 | 11   | Mar 24: | Mar 26:  | Mar 27:<br /> Second midterm exam distributed <br />|
 | 12   | Mar 31: | Apr 2:  | Apr 3: <br /> Second midterm exam due (5:00 pm) <br />|
 | 13   | Apr 7: | Apr 9:  | Apr 10:|
