@@ -25,7 +25,7 @@ title: Schedule
 | 12   | Mar 31: | Apr 2:  | Apr 3: <br /> Second midterm exam due (5:00 pm) <br />|
 | 13   | Apr 7: | Apr 9:  | Apr 10:|
 | 14   | Apr 14: | Apr 16:  | Apr 17:|
-| 15   | Apr 21: | Apr 23:  | Apr 24: <br /> Final exam distributed <br />|
+| 15   | Apr 21: <br /> *It's been Lovely Watching you”: Institutional Decision-Making on Online Proctoring Software*, 2025 IEEE Security and Privacy Symposium, presented by Brooke and Darina <r /> <br /> *HoneySat: A Network-based Satellite Honeypot Framework*, 2026 NDSS Symposium, presented by Brian and Jeff <br /> <br /> *Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering*, 2026 NDSS Symposium <br /> | Apr 23:  | Apr 24: <br /> Final exam distributed <br />|
 | 16   | Apr 28: <br /> Final exam due (5:00 pm) <br /> | Apr 30:  | May 1:|
 {% comment %}             
 | 1    | Aug 26: <br />[Introduction](lectures/lecture01-intro.pdf)<br /> <br /> Hanson: [Efficient reading of papers in science and technology](papers/hanson_efficient_reading_of_papers_in_science_and_technology.pdf)| Aug 28:  | Aug 29: <br /> |
