@@ -21,10 +21,10 @@ title: Schedule
 | 8    | Mar 3: <br />[Electronic Voting Security](lectures/david_wagner_e-voting.pdf)<br />| Mar 5:  | Mar 6: **No Lab Today**|
 | 9    | Mar 10: **Spring Break** | Mar 12: **Spring Break**  | Mar 13: **Spring Break** |
 | 10   | Mar 17: <br />[Networking Overview](lectures/NetworkingOverview.pdf)<br />| Mar 19:  <br />[Network Attacks](lectures/NetworkAttacks.pdf)<br />| Mar 20:|
-| 11   | Mar 24: | Mar 26:  | Mar 27:<br /> Second midterm exam distributed <br />|
-| 12   | Mar 31: | Apr 2:  | Apr 3: <br /> Second midterm exam due (5:00 pm) <br />|
-| 13   | Apr 7: | Apr 9:  | Apr 10:|
-| 14   | Apr 14: | Apr 16:  | Apr 17:|
+| 11   | Mar 24: <br />[Networking Overview](lectures/NetworkingOverview.pdf)<br />| Mar 26:  | Mar 27:<br /> Second midterm exam distributed <br />|
+| 12   | Mar 31: | Apr 2: <br />[Viruses and Worms](lectures/NewMaliciousLogic.pdf)<br /> | Apr 3: <br /> Second midterm exam due (5:00 pm) <br />|
+| 13   | Apr 7: <br />[Web Security](lectures/WebSecurity.pdf)<br />| Apr 9:  | Apr 10:|
+| 14   | Apr 14: <br />[Adversarial Machine Learning](lectures/AdversarialMachineLearning.pdf)<br />| Apr 16:  | Apr 17:|
 | 15   | Apr 21: <br /> *It's been Lovely Watching you: Institutional Decision-Making on Online Proctoring Software*, 2025 IEEE Security and Privacy Symposium, presented by Brooke and Darina <br /> <br /> *HoneySat: A Network-based Satellite Honeypot Framework*, 2026 NDSS Symposium, presented by Brian and Jeff <br /> <br /> *Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering*, 2026 NDSS Symposium, presented by Juan and Alberto <br /> | Apr 23:  <br /> *Catch-22: Uncovering Compromised Hosts using SSH Public Keys*, Usenix Security 2025, presented by Leah and Dhruvam <br /> <br /> *Dancer in the Dark: Synthesizing and Evaluating Polyglots for Blind Cross-Site Scripting*, Usenix Security 2024, presented by Joseph <br /><br /> *Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy*, 2026 NDSS Symposium, presented by Nicolas and Inigo<br />  | Apr 24: <br /> *Unknown Target: Uncovering and Detecting Novel In-Flight Attacks to Collision Avoidance (TCAS)*, 2026 NDSS Symposium, presented by Mudit and Max <br /> <br /> Final exam distributed <br />|
 | 16   | Apr 28: <br /> Final exam due (5:00 pm) <br /> | Apr 30:  | May 1:|
 {% comment %}             
